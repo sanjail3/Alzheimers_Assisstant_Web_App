@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOMEPAGE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: powderblue;
+    }
+
+    .header h1 {
+      color: black;
+      font-size: 30px;
+      font-family: 'vardana', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: red;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: green;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: purple;
+      color: white;
+    }
+
+
+
+li a.passive{
+background-color: #C0C0C0;
+color: black;
+width: 80px;
+heiht=10px;
+border: 1px solid #000000;
+padding: 8px;
+}
+
+
+    li a:hover:not(.active) {
+      background-color: black;
+      color: yellow;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 80px;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 353px;
+      text-align: bottom;
+    }
+
+    .footer {
+      padding: 65px 20px;
+      background-color: green;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>ALZHEIMER'S ASSISTANT</h1>
+    </header>
+    <aside class="left">
+   
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="stickynotes.html">Sticky notes</a></li>
+        <li><a href="imcap.html">Memory Snap</a></li>
+        <li><a class="active" href="guide.html">Guide</a></li>
+       <br>
+       <br>
+      </ul>
+      <br><br>
+      <br>
+    </aside>
+    
+
+<main class="content">
+  <font size = 5>
+  <p>-> <b>To Recognise a unknown person</b> click the recognise button and scan their face in home page.</p>
+  <p>-> <b>To take any notes</b> use the sticky notes in home page.</p>
+  <p>-> <b> For emergency</b> click the call button in home page.</p>
+</font>
+ 
+
+
+    </main>
+    <footer class="footer">&copy; Copyright Techie Hackers</footer>
+  </div>
+</body>
+
+</html>
