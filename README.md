@@ -10,7 +10,7 @@
 #Main Features  
 This is the home page of our website
 ![img_1.png](img_1.png)
-
+.
 second feature is the sticky notes feature where the user  can add important
 things in this sticky notes and  set remainder.
 ![img_2.png](img_2.png)
